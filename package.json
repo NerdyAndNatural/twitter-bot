@@ -4,6 +4,7 @@
   "description": "TwitterBot",
   "main": "bot.js",
   "dependencies": {
+    "heroku": "^7.33.3",
     "twit": "^2.2.11",
     "twitter": "^1.7.1"
   },
