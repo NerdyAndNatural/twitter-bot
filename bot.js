@@ -3,7 +3,7 @@ var config = require('./config.js');
 var Tweet = new Twitter(config);
 
     var params = {
-      q: '#pcbuild, #battlestation',
+      q: '#battlestation',
       count: 10,
       result_type: 'recent',
       lang: 'en'    
