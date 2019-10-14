@@ -1,0 +1,24 @@
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "description": "TwitterBot",
+  "main": "bot.js",
+  "dependencies": {
+    "twit": "^2.2.11",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "bot",
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NerdyAndNatural/cool-tech-twitter-bot.git"
+  },
+  "author": "Sarah Williams",
+  "license": "ISC"
+}
