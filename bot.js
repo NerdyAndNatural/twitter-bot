@@ -1,8 +1,6 @@
 var Twitter = require('twitter');
-var Tweet = new Twitter({consumer_key: process.env.BOT_CONSUMER_KEY,
-    consumer_secret: process.env.BOT_CONSUMER_SECRET,
-    access_token: process.env.BOT_ACCESS_TOKEN,
-    access_token_secret: process.env.BOT_ACCESS_TOKEN_SECRET});
+var config = require('./config.js');
+var Tweet = new Twitter(config);
 
     var params = {
       q: '#pcbuild, #battlestation',
