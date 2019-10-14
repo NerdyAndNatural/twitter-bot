@@ -28,6 +28,3 @@ Tweet.get('search/tweets', params, function(err, data, response) {
       console.log(err);
     }
   })
-
-  setTimeout(function() {
-}, 300000)
