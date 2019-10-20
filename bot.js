@@ -4,7 +4,7 @@ var Tweet = new Twitter(config);
 
 
     var params = {
-      q: '#battlestation OR #pcbuild OR #cooltech OR #cooltechoftheday',
+      q: '#battlestation OR #pcbuild OR #cooltechoftheday',
       count: 10,
       result_type: 'recent',
       lang: 'en'    
