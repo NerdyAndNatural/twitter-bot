@@ -2,8 +2,9 @@ var Twitter = require('twitter');
 var config = require('./config.js');
 var Tweet = new Twitter(config);
 
+
     var params = {
-      q: '#battlestation',
+      q: '#battlestation OR #pcbuild OR #cooltech OR #cooltechoftheday',
       count: 10,
       result_type: 'recent',
       lang: 'en'    
