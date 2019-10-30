@@ -4,7 +4,6 @@
   "description": "TwitterBot",
   "main": "bot.js",
   "dependencies": {
-    "heroku": "^7.33.3",
     "twit": "^2.2.11",
     "twitter": "^1.7.1"
   },
@@ -18,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NerdyAndNatural/cool-tech-twitter-bot.git"
+    "url": "git+https://github.com/NerdyAndNatural/twitter-bot-tech.git"
   },
   "author": "Sarah Williams",
   "license": "ISC"
